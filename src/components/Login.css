@@ -1,0 +1,127 @@
+.login{
+    height: 572px;
+    width: 700px;
+    background-color: white;
+    display: flex;
+    position: fixed;
+    left: 27%;
+    top: 13%;
+    z-index: 2;
+
+}
+.login_left{
+    background-color: #2874f0;
+    width: 311px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login_left_info{
+    margin-top: 41px;
+}
+.login_left_title{
+    /* text-align: center; */
+    padding: 10px;
+    width: 212px;
+    margin-right: 0px;
+}
+.login_left_title h2{
+    color: white;
+    font-size: 27px;
+}
+.login_left_info{
+    /* text-align: center; */
+    padding: 10px;
+    width: 211px; 
+}
+.login_left_info p{
+    color: white;
+    font-size: 16px;
+}
+.login_left_info,.login_left_title{
+    margin-top: 0px;
+}
+.login_left_img img{
+    position: absolute;
+    bottom: 40px;
+    right: 456px;
+    width: 226px;
+}
+.login_left_container1{
+    margin-top: 39px;
+}
+.closeIcon{
+    position: relative;
+    left: 24px;
+    bottom: 5px;
+    height: 25px !important;
+    color: azure;
+
+}
+.closeIcon:hover{
+    cursor: pointer;
+}
+.login_right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login_right_form{
+    padding: 20px 43px;
+    display: flex;
+    flex-direction: column;
+}
+.login_right_form span{
+    margin-top: 25px;
+}
+.login_right_form span a{
+    text-decoration: none;
+    color: #2874f0;
+}
+.login_right_form input{
+    margin-top: 25px;
+
+}
+.login_right_form button{
+    margin-top: 25px;
+
+}
+.login_right_form input{
+    padding: 10px 0px;
+    border: none;
+    border-bottom: 1px solid #2874f0;
+}
+.login_right_form input:focus{
+    outline: none;
+    border-bottom: 1px solid #2874f0;
+}
+.login_right_form input::-webkit-input-placeholder{
+    font-size: 16px;
+}
+.login_right_form button{
+    background-color: #fb641b;
+    border: none;
+    padding: 17px 10px;
+    color: white;
+}
+.login_right_form button:hover{
+    cursor: pointer;
+}
+.login_right_foot{
+    position:absolute;
+    bottom: 40px;
+}
+.login_right_foot p{
+    text-decoration: none;
+    color: #2874f0;
+    cursor: pointer;
+}
+.login_right_form .back_to_login{
+    background-color: white;
+    color: #2874f0;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+}
+.login_right_otptext{
+    margin-top: 10px;
+}

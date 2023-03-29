@@ -1,0 +1,32 @@
+.category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 153px;
+    background-color: white;
+    border-bottom: 1px solid gainsboro;
+    margin-top: 55px;
+}
+.category_container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.category_items{
+    padding: 26px;
+    text-align: center;
+}
+.category_items img{
+    object-fit: contain;
+    width: 75px;
+    transition-property: all; 
+    transition-duration: 0.3s; 
+    transition-timing-function: ease;
+}
+.category_items:hover img{
+    transform: scale(1.1);
+}
+.category_items p{
+    text-align: center;
+    
+}
